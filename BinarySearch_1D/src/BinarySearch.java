@@ -12,8 +12,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
 
-        int[] arr = {13,46,24,52,20,9};
-        int x = 24;
+        int[] arr = {3, 4, 6, 7, 9, 12, 16, 17};
+        int x = 6;
 
         int res = searchBinary(arr, x, 0, arr.length-1);
 
