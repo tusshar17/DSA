@@ -5,11 +5,9 @@ public class BinarySearch {
 
         if (arr[mid]==x) return mid;
 
-        if (x<arr[mid])
-            searchBinary(arr, x, low, mid);
-        else searchBinary(arr, x, mid+1, high);
-
-        return -1;
+        if(low>high) return -1;
+        else if (x<arr[mid]) return searchBinary(arr, x, low, mid-1);
+        return searchBinary(arr, x, mid+1, high);
     }
 
     public static void main(String[] args) {
