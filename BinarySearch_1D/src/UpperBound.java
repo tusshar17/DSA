@@ -5,7 +5,7 @@ public class UpperBound {
     static int findUpperBound(int arr[], int x){
 
         int n = arr.length;
-        int ans = n+1;
+        int ans = n;
         int low = 0, high = n-1;
 
         while (low<=high){
