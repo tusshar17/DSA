@@ -28,17 +28,17 @@ public class DeleteFromHead {
 
     static void printList(Node head){
         Node current = head;
-        while (current.next!=null){
+        while (current!=null){
             System.out.print(current.data + "-->");
             current = current.next;
         }
-        System.out.print(current.data + "-->");
         System.out.println("end");
     }
 
 
     // deleting node from head
     static Node deleteFromHead(Node head){
+        if (head==null) return head;
         head = head.next;
         return head;
     }
