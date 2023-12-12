@@ -34,6 +34,7 @@ public class InsertingNodeAtBeginning {
             System.out.print(current.data + "-->");
             current = current.next;
         }
+        System.out.print(current.data + "-->");
         System.out.println("end");
     }
 
