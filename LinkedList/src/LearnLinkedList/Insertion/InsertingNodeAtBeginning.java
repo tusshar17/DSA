@@ -1,4 +1,4 @@
-package LearnLinkedList;
+package LearnLinkedList.Insertion;
 
 
 class ListNode{
