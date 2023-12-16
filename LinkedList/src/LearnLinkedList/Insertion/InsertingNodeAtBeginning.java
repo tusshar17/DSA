@@ -9,6 +9,11 @@ class ListNode{
         this.data = data;
         this.next = null;
     }
+
+    ListNode(int data, ListNode next) {
+        this.data = data;
+        this.next = next;
+    }
 }
 
 public class InsertingNodeAtBeginning {
