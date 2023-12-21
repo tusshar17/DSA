@@ -21,7 +21,7 @@ class Node{
 
 public class DeleteHead {
 
-    private static void printList(Node head){
+    public static void printList(Node head){
         while (head!=null){
             System.out.print(head.data);
             System.out.print("->");
@@ -30,7 +30,7 @@ public class DeleteHead {
         System.out.println("END");
     }
 
-    private static Node convertArrayToDLL(int[] arr){
+    public static Node convertArrayToDLL(int[] arr){
         Node head = new Node(arr[0]);
         Node prev = head;
 
