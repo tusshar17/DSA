@@ -51,7 +51,6 @@ public class DeleteHead {
         head = head.next;
         head.prev = null;
         prev.next = null;
-
         return head;
 
     }
