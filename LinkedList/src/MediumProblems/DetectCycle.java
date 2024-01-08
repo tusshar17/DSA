@@ -1,6 +1,6 @@
 package MediumProblems;
 
-public class detectCycle {
+public class DetectCycle {
 
     static boolean hasCycle(Node head){
 
