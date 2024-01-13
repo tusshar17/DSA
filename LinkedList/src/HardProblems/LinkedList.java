@@ -1,4 +1,4 @@
-package MediumProblems;
+package HardProblems;
 
 class Node{
     int val;
